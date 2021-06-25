@@ -1,0 +1,39 @@
+/* pc */
+@media (min-width: 1024px) {
+    
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* mobile  */
+@media (max-width: 740px) {
+
+    #nav > li {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #slider .my-slide .slide-content {
+        display: none;
+    }
+    #content .about-text {
+        width: 98%;
+        margin: 0 auto;
+        /* font-weight: lighter; */
+        font-size: 15px;
+        font-family: "Lato", sans-serif;
+    }
+    .col {
+        float:none;
+        width: 100% !important;
+    }
+}

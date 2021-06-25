@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <title>The Band</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: Nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">More
+                        <i class=ti-angle-down style="font-size:10px;"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a>Merchandise</a></li>
+                        <li><a>Extras</a></li>
+                        <li><a>Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End: Nav -->
+            
+            <!-- Begin: Search -->
+            <div class="search-btn">
+                <i class="ti-search"></i>
+            </div>
+            <!-- End: Search -->
+
+            <div class="mobile-menu-btn">
+                <i class="ti-menu" onclick=show_hide_mobile_menu()></i>
+            </div>
+        </div>
+        
+        <div id="slider" class= "text-white">
+            <div class="my-slide">
+                <img class = "slide" src = "./assets/img/1.jpg" alt = "slide-1">
+                <div class="slide-content">
+                    <div class="heading-content">
+                        <h3>Chicago</h3>
+                    </div>
+                    <div class="detail-content">
+                        Thank you, Chicago - A night we won't forget.
+                    </div>
+                </div>
+            </div>
+            <div class="my-slide">
+                <img class = "slide" src = "./assets/img/2.jpg" alt = "slide-2">
+                <div class="slide-content">
+                    <div class="heading-content">
+                        <h3>Chicago</h3>
+                    </div>
+                    <div class="detail-content">
+                        Thank you, Chicago - A night we won't forget.
+                    </div>
+                </div>
+            </div>
+            <div class="my-slide">
+                <img class = "slide" src = "./assets/img/3.jpg" alt = "slide-3">
+                <div class="slide-content">
+                    <div class="heading-content">
+                        <h3>Chicago</h3>
+                    </div>
+                    <div class="detail-content">
+                        Thank you, Chicago - A night we won't forget.
+                    </div>
+                </div>
+            </div>
+            <div class="my-slide">
+                <img class = "slide" src = "./assets/img/4.jpg" alt = "slide-4">
+                <div class="slide-content">
+                    <div class="heading-content">
+                        <h3>Chicago</h3>
+                    </div>
+                    <div class="detail-content">
+                        Thank you, Chicago - A night we won't forget.
+                    </div>
+                </div>
+            </div>
+            <div class="my-slide">
+                <img class = "slide" src = "./assets/img/5.jpg" alt = "slide-5">
+                <div class="slide-content">
+                    <div class="heading-content">
+                        <h3>Chicago</h3>
+                    </div>
+                    <div class="detail-content">
+                        Thank you, Chicago - A night we won't forget.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Begin: Content -->
+        <div id="content">
+            <!-- About -->
+            <div id="band" class="content-section">
+                <h2 class="section-heading">The Band</h2>
+                <p class="section-sub-heading">we love music</p>
+                <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="row mem-list">
+                    <div class="col col-third text-center">
+                        <p class="mem-name">Name</p>
+                        <img class="mem-img" src="./assets/img/bandmember.jpg" alt="hiển thị khi lỗi">
+                    </div>
+                    <div class="col col-third text-center">
+                        <p class="mem-name">Name</p>
+                        <img class="mem-img" src="./assets/img/bandmember.jpg" alt="hiển thị khi lỗi">
+                    </div>
+                    <div class="col col-third text-center">
+                        <p class="mem-name">Name</p>
+                        <img class="mem-img" src="./assets/img/bandmember.jpg" alt="hiển thị khi lỗi">
+                    </div>
+
+                </div>
+            </div>
+    
+            
+            <!-- Tour date -->
+            <div id="tour" class="tour-section ">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">Tour Dates</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    
+                    <!-- tickets -->
+                    <ul class="tickets-list">
+                        <li>Septemper <span class="sold-out text-white">Sold out</span></li>
+                        <li>October <span class="sold-out text-white">Sold out</span></li>
+                        <li>November <span class="remain-ticket text-white">3</span></li>
+                    </ul>
+                       
+                    <!-- place-list -->
+                    <div class="row place-list">
+                        <div class="col col-third">
+                            <img class="place-img" src="./assets/img/newyork.jpg" alt="nơi nào đó">
+                            <div class="place-content">
+                                <p class="place"><b>New York</b></p>
+                                <p class="place-date">Fri 27 Nov 2016</p>
+                                <p class="place-detail">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a  class="btn" href="#tour">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <div class="col col-third">
+                            <img class="place-img" src="./assets/img/newyork.jpg" alt="nơi nào đó">
+                            <div class="place-content">
+                                <p class="place"><b>New York</b></p>
+                                <p class="place-date">Fri 27 Nov 2016</p>
+                                <p class="place-detail">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a  class="btn" href="#tour">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <div class="col col-third">
+                            <img class="place-img" src="./assets/img/newyork.jpg" alt="nơi nào đó">
+                            <div class="place-content">
+                                <p class="place"><b>New York</b></p>
+                                <p class="place-date">Fri 27 Nov 2016</p>
+                                <p class="place-detail">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a  class="btn" href="#tour">Buy Tickets</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                <div class="row contact-content">
+                    <div class="col col-half contact-info">
+                        <p><i class="ti-location-pin"></i>Binh Thanh District, Ho Chi Minh City, VN</p>
+                        <p><i class="ti-mobile"></i>Phone: 0943439160</p>
+                        <p><i class="ti-email"></i>Email: tvminh2611@gmail.com</p>
+                    </div>
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input class="form-control" type="text" name="" id="" required placeholder="Name">
+                                </div>
+                                <div class="col col-half">
+                                    <input class="form-control" type="email" name="" id=""required  placeholder="Email">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col col-full">
+                                    <input class="form-control" type="text" name="" id="" required placeholder="Message">
+                                </div>
+                            </div>
+                            <input class="mt-16 btn sen-btn" type="submit"  value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- google map -->
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.7597335837685!2d106.70775282919259!3d10.808329999518746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528bdaf3a40d9%3A0x35e67204170893f!2zMjRiIELDuWkgxJDDrG5oIFR1w70sIFBoxrDhu51uZyAyNiwgQsOsbmggVGjhuqFuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1622794146383!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <!-- End: Content -->
+
+        <div id="footer" class="text-center">
+            <div class="social-list">
+                <a href="https://www.facebook.com/tvminh26/"><i class="ti-facebook"></i></a>
+                <a href="https://www.instagram.com/tvminhhhhh/"><i class="ti-instagram"></i></a>
+                <a href="skype:live:tvminh2611?chat""><i class="icon-contact ti-skype"></i></a>
+                <a href="https://www.linkedin.com/in/minh-trinh-van-4a29a2210/"><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="footer-text">Powered by tvminh2611</p>
+            
+        </div>
+    </div>
+
+    <script>
+        var slide_idx = 0;
+        show_slide();
+        function show_slide()   {
+            var i;
+            var x = document.getElementsByClassName("my-slide");
+            for(i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            if(slide_idx >= x.length) {
+                slide_idx = 0;
+            }
+            x[slide_idx++].style.display = "block";
+            // Change image every 2 seconds
+            setTimeout(show_slide,2000);
+        }
+
+
+        var header = document.getElementById('header');
+        // chiều cao mặc định lúc load trang ban đầu
+        var headerHeight = header.clientHeight;
+        
+        function show_hide_mobile_menu() {
+            var isClosed = header.clientHeight  === headerHeight;
+            if (isClosed){
+                header.style.height = 'auto';
+            }
+            else{
+                header.style.height = null;
+            }
+
+            var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+            for (var i = 0; i < menuItems.length; i++) {
+                var menuItem = menuItems[i];
+                menuItem.onclick = function() {
+                    header.style.height = null;
+                }
+            }
+        }
+
+        
+
+    </script>
+</body>
+</html>
