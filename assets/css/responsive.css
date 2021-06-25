@@ -10,7 +10,9 @@
 
 /* mobile  */
 @media (max-width: 740px) {
-
+    #header {
+        overflow: hidden;
+    }
     #nav > li {
         display: block;
     }
